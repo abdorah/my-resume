@@ -455,7 +455,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -549,6 +549,16 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
+}
+
+.resume .download-btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  margin: auto;
+  max-width: fit-content;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
