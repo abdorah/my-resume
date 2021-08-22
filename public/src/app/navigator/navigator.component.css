@@ -1,0 +1,23 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+header {
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+}
+
+ul {
+    display: inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0.6rem;
+}

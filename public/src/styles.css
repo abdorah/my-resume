@@ -1,0 +1,46 @@
+:root {
+  --light-color: #f7f8fa;
+  --dark-color: #8b949e;
+  --font-link: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-title: "Raleway", sans-serif;
+  --font-text: "Open Sans", sans-serif;
+  --font-sz: 24px;
+  --bg-color: #2d333b;
+}
+
+body {
+  font-family: var(--font-general);
+  height: 100%;
+  background: var(--bg-color);
+}
+
+a {
+  color: var(--light-color);
+  font-family: var(--font-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--light-color);
+  font-family: var(--font-title);
+}
+
+p {
+  color: var(--dark-color);
+  font-family: var(--font-text);
+}
+
+ul {
+    list-style: none;
+}
