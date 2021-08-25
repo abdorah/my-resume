@@ -1,3 +1,8 @@
-
+<h1> {{ introduction }}</h1>
 <app-navigator></app-navigator>
+<div class="" [ngSwitch]="true">
+    <div *ngSwitchCase="true">output</div>
+    <!-- It's either about me, my skills, my projects, my acheivements, or my blog -->
+</div>
+<app-cmd></app-cmd>
 <router-outlet></router-outlet>

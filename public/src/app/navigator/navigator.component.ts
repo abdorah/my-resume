@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigatorComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    
   }
 
+  ngOnInit(): void {
+
+  }
 }
