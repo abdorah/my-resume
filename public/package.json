@@ -1,0 +1,26 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "my personnal resumé",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdorah/my-resume.git"
+  },
+  "keywords": [
+    "resumé",
+    "personnal website"
+  ],
+  "author": "kotbi abderrahmane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdorah/my-resume/issues"
+  },
+  "homepage": "https://kotbiabderrahmane.web.app/",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
+}
